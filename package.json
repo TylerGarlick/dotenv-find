@@ -1,6 +1,6 @@
 {
   "name": "find-dotenv",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Find all the .env files withing a directory",
   "main": "build/index.js",
   "repository": "https://github.com/TylerGarlick/find-dotenv.git",
