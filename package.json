@@ -1,6 +1,6 @@
 {
   "name": "@tylergarlick/dotenv-find",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Finds all the .env files, recursively from a given root path.",
   "keywords": [
     "dotenv",
@@ -10,7 +10,6 @@
     "recursive-search",
     ".env"
   ],
-
   "main": "build/index.js",
   "repository": "https://github.com/TylerGarlick/dotenv-find.git",
   "author": "Tyler Garlick <tjgarlick@gmail.com>",
