@@ -1,6 +1,6 @@
 {
   "name": "@tylergarlick/dotenv-find",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Finds all the .env files, recursively from a given root path.",
   "keywords": [
     "dotenv",
