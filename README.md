@@ -7,13 +7,13 @@
 Use your favorite package management tool.
 
 ```bash
-npm i find-dotenv | yarn add find-dotenv
+npm i dotenv-find | yarn add dotenv-find
 ```
 
 ### Usage
 
 ```ts
-import findDotEnv from 'find-dotenv'
+import findDotEnv from 'dotenv-find'
 
 const run = async () => {
   const path = 'path_to_your_root_projects'
@@ -25,16 +25,15 @@ const run = async () => {
   /*
   Output: 
   [ 
-    '/Users/tylergarlick/Projects/find-dotenv/test/fixtures/.env',
-	'/Users/tylergarlick/Projects/find-dotenv/test/fixtures/A/.env',
-	'/Users/tylergarlick/Projects/find-dotenv/test/fixtures/A/.env.bad',
-	'/Users/tylergarlick/Projects/find-dotenv/test/fixtures/A/.env.test',
-	'/Users/tylergarlick/Projects/find-dotenv/test/fixtures/A/.env.test.with.a.lot.of.extensions.env',
-	'/Users/tylergarlick/Projects/find-dotenv/test/fixtures/B/.env',
-	'/Users/tylergarlick/Projects/find-dotenv/test/fixtures/B/B1/.env',
-	'/Users/tylergarlick/Projects/find-dotenv/test/fixtures/C/.env' ] 
+    '/Users/tylergarlick/Projects/dotenv-find/test/fixtures/.env',
+	'/Users/tylergarlick/Projects/dotenv-find/test/fixtures/A/.env',
+	'/Users/tylergarlick/Projects/dotenv-find/test/fixtures/A/.env.bad',
+	'/Users/tylergarlick/Projects/dotenv-find/test/fixtures/A/.env.test',
+	'/Users/tylergarlick/Projects/dotenv-find/test/fixtures/A/.env.test.with.a.lot.of.extensions.env',
+	'/Users/tylergarlick/Projects/dotenv-find/test/fixtures/B/.env',
+	'/Users/tylergarlick/Projects/dotenv-find/test/fixtures/B/B1/.env',
+	'/Users/tylergarlick/Projects/dotenv-find/test/fixtures/C/.env' ] 
    */
 }
 
 ```
-

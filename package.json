@@ -1,9 +1,18 @@
 {
-  "name": "find-dotenv",
-  "version": "1.0.0",
-  "description": "Find all the .env files withing a directory",
+  "name": "@tylergarlick/dotenv-find",
+  "version": "0.0.0",
+  "description": "Finds all the .env files, recursively from a given root path.",
+  "keywords": [
+    "dotenv",
+    "env",
+    "find",
+    "search",
+    "recursive-search",
+    ".env"
+  ],
+
   "main": "build/index.js",
-  "repository": "https://github.com/TylerGarlick/find-dotenv.git",
+  "repository": "https://github.com/TylerGarlick/dotenv-find.git",
   "author": "Tyler Garlick <tjgarlick@gmail.com>",
   "license": "The Unlicense",
   "private": false,
