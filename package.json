@@ -10,8 +10,8 @@
     "recursive-search",
     ".env"
   ],
-  "main": "build/index.js",
-  "types": "build/index.d.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
   "repository": "https://github.com/TylerGarlick/dotenv-find.git",
   "author": "Tyler Garlick <tjgarlick@gmail.com>",
   "license": "The Unlicense",
