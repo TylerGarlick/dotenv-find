@@ -20,7 +20,7 @@
     "prebuild": "rm -rf build",
     "build": "tsc",
     "test": "jest",
-    "prepublish": "npm run build"
+    "prepublish": "npm run dist"
   },
   "devDependencies": {
     "@sindresorhus/tsconfig": "^0.8.0",
