@@ -11,15 +11,19 @@
     ".env"
   ],
   "main": "build/index.js",
+  "types": "build/index.d.js",
   "repository": "https://github.com/TylerGarlick/dotenv-find.git",
   "author": "Tyler Garlick <tjgarlick@gmail.com>",
   "license": "The Unlicense",
   "private": false,
   "scripts": {
+    "prebuild": "rm -rf build",
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "npm run build"
   },
   "devDependencies": {
+    "@sindresorhus/tsconfig": "^0.8.0",
     "@types/jest": "^26.0.19",
     "@types/node": "^14.14.13",
     "jest": "^26.6.3",
