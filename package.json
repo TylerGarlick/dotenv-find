@@ -17,10 +17,10 @@
   "license": "The Unlicense",
   "private": false,
   "scripts": {
-    "prebuild": "rm -rf build",
+    "prebuild": "rm -rf dist",
     "build": "tsc",
     "test": "jest",
-    "prepublish": "npm run dist"
+    "prepublish": "npm run build"
   },
   "devDependencies": {
     "@sindresorhus/tsconfig": "^0.8.0",
